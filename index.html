@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <main>  
+    <div class="header-wraper container">
+      <h3 class="header-title">O'ZBEKISTON RESPUBLIKASI VAZIRLAR MAHKAMASI HUZURIDAGI DAVLAT TEST MARKAZI</h3>
+      <form class="row g-3 header-form" action="https://echo.htmlacademy.ru" method="POST">
+        <div class="col-md-4">
+          <label for="validationDefault01" class="form-label ">Ismigizni kiriting</label>
+          <input type="text" class="form-control name-input" id="validationDefault01" placeholder="Ismigizni kiriting"  required>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefault02" class="form-label">Familiyagizni kiriting</label>
+          <input type="text" class="form-control surename-input" id="validationDefault02" placeholder="Familiyagizni kiriting" required>
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault03" class="form-label">DTM raqami kiriting</label>
+          <input type="number" class="form-control" id="validationDefault03" placeholder="DTM raqami kiriting" required>
+        </div>
+
+        <div class="col-md-3">
+          <label for="validationDefault04" class="form-label">Unversititni tanlang</label>
+          <select class="form-select" id="validationDefault04" required>
+            <option selected disabled value="">Unversitit turali</option>
+            <option>Axborat Texnogiyalari Unversiti</option>
+            <option>O'zbekiston Milliy Unversiti</option>
+            <option>Toshkent Davlat Paltexnika Unversiti</option>
+            <option>Toshkent Moliya Unversiti</option>
+          </select>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefault05" class="form-label">Talim turlari</label>
+          <select class="form-select" id="validationDefault04" required>
+            <option selected disabled value="">Talim turini tanlang</option>
+            <option>Kunduzgi</option>
+            <option>Sirtqi</option>
+            <option>Kechki</option>
+          </select>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefault05" class="form-label">Tillni talang</label>
+          <select class="form-select" id="validationDefault04" required>
+            <option selected disabled value="">tilni tanlang</option>
+            <option>O'zbek tili</option>
+            <option>Rus tili</option>
+            <option>Qoraqalpoq tili</option>
+          </select>
+        </div>
+        <div class="col-md-4 mt-3">
+          <label for="score-id">Olgan balingizni kiriting</label>
+          <input type="number" class="form-control enter-score" id="score-id" placeholder="Olgan balingizni kiriting" aria-label="Enter your score" required>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary " type="submit">Submit form</button>
+        </div>
+      </form>
+
+      <p class="header-js"></p>
+      <p class="main-js"></p>
+    </div>
+  </main>
+
+  <script src="javascript.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
